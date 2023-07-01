@@ -1,0 +1,186 @@
+body{
+ margin: 0px;
+ padding: 0px;
+ font-family: 'Times New Roman', Times, serif;
+ box-sizing: border-box;
+ background-color: rgba(48, 15, 195, 0.603);
+}
+.top-color{
+  padding: 0px;
+  background-color: rgba(25, 28, 218, 0.449);
+  height: 140px;
+}
+
+
+.head{
+  box-shadow: 0px 0px 5px 0px rgba(44, 63, 151, 0.555);
+  color: rgba(49, 72, 188, 0.726);
+  height: 100px;
+  background-color: rgba(43, 34, 167, 0.205);
+}
+
+.pro > button >a{
+  color: rgba(12, 8, 219, 0.988);
+  margin: 0px;
+  font-size: x-small;
+  text-decoration: none;
+ }
+
+ .container{
+  flex-direction: row;
+  flex-wrap: wrap;
+ padding: 0px;
+ }
+
+ /* video setting*/
+ .source{
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+ }
+
+ /* next botton*/
+.next >:hover{
+  padding: -6px;
+  color: rgba(79, 79, 208, 0.499);
+  width: 40px;
+  display: inline;
+  border-bottom: 2px solid;
+ }
+
+
+ a{
+  text-decoration-line: none;
+  text-align: center;
+  display: block;
+ }
+
+ button{
+  display: inline-block;
+  border-style: none;
+  margin: 4px;
+  background-color: rgba(50, 39, 163, 0.352);
+  
+ }
+ 
+ /* this the logo of the site*/
+ .logo{
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50px;
+  border: 2px solid;
+ }
+ 
+ .facebook{
+  position: absolute;
+  top: 0px;
+  left: 75px;
+  color: rgb(42, 23, 211);
+ }
+ /* profiolo hover on chat at head*/
+.pro > :hover >a{
+  color: rgba(1, 1, 232, 0.879);
+  display: inline;
+  border-bottom: 2px solid;
+  background-color: rgb(252, 249, 249);
+  border: 2px solid;
+}
+
+ /*search button*/
+ .search{
+   top: 80px;
+  position: relative;
+  background-color: rgba(0, 0, 255, 0.242);
+  width: 350px;
+  height: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid;
+  border-color: hwb(248 13% 36% / 0.316);
+ }
+ #searchButton{
+  position: absolute;
+  border: 1px solid;
+  border-radius: 10px;
+  color: rgb(238, 238, 244);
+  right: -6px;
+  height: 31px;
+  margin-top: -1px;
+  border-color: rgb(0, 0, 0);
+ }
+ #searchBox{
+  color: rgb(247, 250, 252);
+  text-align: center;
+  height: 28px;
+  width: 283px;
+  position: absolute;
+  left: 0px;
+  justify-items: center;
+  flex-direction: row;
+  border-right: 4px solid;
+  border-color: rgba(54, 49, 207, 0.66);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-style: none;
+ }
+
+ marquee{
+   position: relative;
+   top: -28px;
+  color: rgba(65, 65, 180, 0.507);
+  text-shadow: 0px 5px 10px rgba(72, 27, 163, 0.544)
+ }
+ 
+ input{
+  background-color: rgba(93, 93, 171, 0.216);
+ }
+ input:hover{
+  background-color: rgba(60, 57, 155, 0.448);
+  color: rgba(227, 221, 220, 0.99);
+  border-style: none;
+  
+ }
+ #search1:hover{
+    background-color: azure;
+    color: rgba(54, 54, 180, 0.511);
+ }
+
+ button{
+     background: none;
+ }
+ button > #next{
+  margin: 0px;
+  background-color: rgba(78, 78, 177, 0.51);
+  height: 20px;
+  width: 30px;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: blue;
+  text-align: center;
+  color: antiquewhite;
+ }
+ 
+ .footer{
+  font-style: oblique;
+  text-align: center;
+  border-top: 10px solid;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 180px;
+  color: rgba(44, 46, 166, 0.504);
+  background-color: rgba(59, 68, 186, 0.323);
+}
+
+.message{
+  text-decoration: dotted;
+  border: 1px solid;
+  border-color: black;
+  max-height: max-content;
+  max-width: max-content;
+  border: 2px solid;
+}
